@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp228
 {
-    class Human
+    class Worker:Human
     {
-        public string Name;
-        public int Age;
+
+        private float Salary { get; set; }
 
     }
 }
